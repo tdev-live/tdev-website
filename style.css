@@ -30,7 +30,7 @@ body {
 }
 
 .container .discord {
-    padding-top: 15px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
 }
@@ -42,6 +42,7 @@ body {
     font-size: 25px;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .container .discord a {
@@ -50,7 +51,6 @@ body {
 }
 
 .container .discord a img {
-    padding-top: 20px;
     width: 150px;
     height: 40px;
 }
