@@ -62,3 +62,17 @@ body {
 .container .discord a img:hover {
     opacity: 0.7;
 }
+
+.github {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.github a {
+    color: white;
+}
+
+.github a:hover {
+    opacity: 0.7;
+}
