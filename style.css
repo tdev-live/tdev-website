@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #6441A4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.container .logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.container .discord {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .discord .text {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container .discord a {
+    display: flex;
+    justify-content: center;
+}
+
+.container .discord a img {
+    width: 150px;
+    height: 40px;
+}
+
+.container .discord a img:hover {
+    opacity: 0.7;
+}
